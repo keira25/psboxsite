@@ -20,7 +20,8 @@ from django.views.generic.base import TemplateView
 urlpatterns = [
     path('nimda/', admin.site.urls),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
-    path('projects/', include('projects.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),   
+    path('users/', include('users.urls')),
+    path('users/', include('django.contrib.auth.urls')),    
+    path('projects/', include('projects.urls')),      
     
 ]
