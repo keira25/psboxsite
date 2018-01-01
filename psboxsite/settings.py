@@ -25,7 +25,7 @@ SECRET_KEY = 'ri&tbx5ou7^2ccwbc5x@-__d7szjdq*z=1l(m=8)j6v6!0w2s#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [.psbox.site]
 
 
 # Application definition
